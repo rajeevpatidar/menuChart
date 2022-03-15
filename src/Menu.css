@@ -1,0 +1,30 @@
+.section-center{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 10px;
+    height: max-content;
+    flex-wrap: wrap;
+}
+.photo{
+    width: 250px;
+    height: 180px;
+}
+.menu-item{
+    display: flex;
+    width: fit-content;
+    width: 500px;
+    margin: 20px;
+    display: flex;
+}
+.menu-item > div{
+    margin: 10px;
+}
+div >header{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-desc{
+    /* border: 2px solid black; */
+    /* width:100px ; */
+}
